@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <body>
+      <!-- Завдання 1 -->
+      <h2>Завдання 1</h2>
+      <ul id="allProducts"></ul>
+
+      <!-- Завдання 2 -->
+      <h2>Завдання 2</h2>
+      <form id="singleProductForm">
+        <label for="id">Введіть ID продукта</label>
+        <input type="number" name="id"/>
+        <button type="submit">Знайти</button>
+      </form>
+      <div id="singleProduct"></div>
+
+      <!-- Завдання 3 -->
+      <h2>Завдання 3</h2>
+      <form>
+        <label>Назва</label>
+        <input type="text" name="title">
+
+        <label>Опис</label>
+        <input type="text" name="description">
+
+        <label>Ціна</label>
+        <input type="number" name="price">
+        <button type="submit">Додати</button>
+      </form>
+      <div id="newProductSection"></div>
+
+      <!-- Завдання 4 -->
+      <h2>Завдання 4</h2>
+      <form id="deletionProductForm">
+        <label for="id">Введіть ID продукта для видалення</label>
+        <input type="number" name="deletionId"/>
+        <button type="submit">Видалити</button>
+      </form>
+
+      <!-- Завдання 5 -->
+      <h2>Завдання 5</h2>
+      <ul id="allUsers"></ul>
+
+      <!-- Завдання 6 -->
+      <h2>Завдання 6</h2>
+      <form id="userByNameForm">
+        <label for="id">Введіть ім`я</label>
+        <input type="text" name="name"/>
+        <button type="submit">Знайти користувачів</button>
+      </form>
+      <ul id="usersByName"></ul>
+
+      <!-- Завдання 7 -->
+      <h2>Завдання 7</h2>
+      <form id="userCartsForm">
+        <label for="id">Введіть ID користувача для отримування карт</label>
+        <input type="number" name="userId"/>
+        <button type="submit">Найти</button>
+      </form>
+      <ul id="carts"></ul>
+
+      <!-- Завдання 8 -->
+      <h2>Завдання 8</h2>
+      <form id="userPostsForm">
+        <label for="id">Введіть ID користувача для отримання постів</label>
+        <input type="number" name="userId"/>
+        <button type="submit">Знайти</button>
+      </form>
+      <ul id="posts"></ul>
+
+      <!-- Завдання 9 -->
+      <h2>Завдання 9</h2>
+        <form>
+          <label>Ім`я</label>
+          <input type="text" name="firstName">
+      
+          <label>Прізвище</label>
+          <input type="text" name="lastName">
+      
+          <label>Email</label>
+          <input type="email" name="email">
+
+          <label>Пароль</label>
+          <input type="password" name="password">
+          <button type="submit">Додати користувача</button>
+        </form>
+      <div id="newUserSection"></div>
+
+      <!-- Завдання 10 -->
+      <h2>Завдання 10</h2>
+      <form id="filteredPostsForm">
+        <label for="id">Введіть ключове слово</label>
+        <input type="text" name="keyword"/>
+        <button type="submit">Знайти пости</button>
+      </form>
+      <ul id="filteredPosts"></ul>
+      
+
+      <!-- Завдання 11 -->
+      <h2>Завдання 11</h2>
+      <ul id="allPosts"></ul>
+
+
+  </body>
+</html>
