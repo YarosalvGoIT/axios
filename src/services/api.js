@@ -1,5 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 const apiInstance = axios.create({
-  baseURL: "https://dummyjson.com",
+  baseURL: 'https://dummyjson.com',
 });
+
 export default apiInstance;
